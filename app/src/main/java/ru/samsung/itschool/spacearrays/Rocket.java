@@ -10,8 +10,8 @@ public class Rocket {
     Bitmap pic;
 
     Rocket(Bitmap pic){
-        this.x = (float)(Math.random()*500);
-        this.y = (float)(Math.random()*500);
+        this.x = (float)(Math.random()*750);
+        this.y = (float)(Math.random()*750);
         this.vx = (float)(Math.random()*11)-5;
         this.vy = (float)(Math.random()*11)-5;
         this.pic = pic;
